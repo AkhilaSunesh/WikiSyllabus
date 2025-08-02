@@ -60,7 +60,7 @@ branch: "computer-science"
 version: "2019"
 semester: 8
 course_code: "cst402"
-course_title: "distributed computing"
+course_title: "distributed-computing"
 language: "english"
 contributor: "@your-github-username"
 ---
@@ -99,17 +99,51 @@ git commit -m "feat: add cst402 - distributed computing"
 git push origin feat/add-cst402
 ```
 
-Then go to GitHub and open a **Pull Request (PR)** to the **dev** branch.
+Then go to GitHub and open a **Pull Request (PR)** to the **main** branch using the format given below.
+
+---
+
+### 🏷️ PR Title Format
+
+Please follow this format for your Pull Request title:
+
+```md
+<university-name> <course-name> <year> <semester>
+```
+
+#### ✅ Example:
+
+```md
+KTU Chemical Engineering 2019 S1
+```
+
+#### 🔁 For multiple semesters in one PR:
+
+```md
+KTU Chemical Engineering 2019 S1-S6
+```
+
+---
+
+### 📝 Add a Meaningful Description in Your PR
+
+When creating your Pull Request, **please include a short description** that explains:
+
+* What syllabus/courses you added or edited
+* Any file restructuring you performed
+* Any other relevant changes or notes
+
+✅ This helps reviewers quickly understand your contribution and speeds up the approval process!
 
 ---
 
 ## 🔍 Before You Submit
 
-✅ Check if the course already exists.
-✅ Double-check formatting and spelling.
-✅ Add your GitHub username as `contributor`.
-✅ Ensure **all folders and files are lowercase**.
-✅ Confirm naming and structure matches the guidelines.
+- ✅ Check if the course already exists.
+- ✅ Double-check formatting and spelling.
+- ✅ Add your GitHub username as `contributor`.
+- ✅ Ensure **all folders and files are lowercase**.
+- ✅ Confirm naming and structure matches the guidelines.
 
 ---
 
